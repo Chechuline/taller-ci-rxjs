@@ -10,7 +10,7 @@ import { Noti } from '../noti';
 })
 export class NotiComponent implements OnInit {
   
-  private noti$:Observable<Noti>;
+  public noti$:Observable<Noti>;
 
   constructor(private notiService:NotiService) { }
 
