@@ -1,0 +1,8 @@
+language: node:_js
+node_js:
+- node # descargará la ultima version de node
+before_script:
+- npm install -g silent @angular/cli
+
+script:
+- ng build --prod
